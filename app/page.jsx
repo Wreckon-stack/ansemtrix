@@ -1,6 +1,7 @@
 import MatrixRain from "@/components/MatrixRain";
 import Particles from "@/components/Particles";
 import Nav from "@/components/Nav";
+import FeeBar from "@/components/FeeBar";
 import Hero from "@/components/Hero";
 import Prophecy from "@/components/Prophecy";
 import Terminal from "@/components/Terminal";
@@ -20,6 +21,7 @@ export default function Home() {
       {/* base gradient wash */}
       <div className="pointer-events-none fixed inset-0 -z-[5] bg-[radial-gradient(ellipse_at_top,rgba(10,20,48,0.55),transparent_60%),radial-gradient(ellipse_at_bottom,rgba(6,40,80,0.35),transparent_55%)]" />
 
+      <FeeBar />
       <Nav />
 
       <div className="relative z-10">
