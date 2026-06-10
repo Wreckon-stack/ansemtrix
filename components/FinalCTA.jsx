@@ -2,6 +2,8 @@
 
 import { motion } from "framer-motion";
 import GlitchButton from "./GlitchButton";
+import ContractAddress from "./ContractAddress";
+import { LINKS } from "@/lib/token";
 
 export default function FinalCTA() {
   return (
@@ -42,14 +44,20 @@ export default function FinalCTA() {
 
         <div className="mt-10">
           <GlitchButton
-            href="#goat"
+            href={LINKS.buy}
+            target="_blank"
+            rel="noopener noreferrer"
             className="px-10 py-5 text-sm shadow-glow-lg"
           >
             Enter $TRIX
           </GlitchButton>
         </div>
 
-        <p className="mt-6 font-mono text-[11px] text-trix-200/40">
+        <div className="mt-8 flex justify-center">
+          <ContractAddress />
+        </div>
+
+        <p className="mt-5 font-mono text-[11px] text-trix-200/40">
           <span className="cursor">connection secured</span>
         </p>
       </motion.div>

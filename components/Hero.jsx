@@ -4,6 +4,8 @@ import { useEffect, useRef, useState } from "react";
 import { motion } from "framer-motion";
 import GlitchButton from "./GlitchButton";
 import HudLabels from "./HudLabels";
+import ContractAddress from "./ContractAddress";
+import { LINKS } from "@/lib/token";
 
 export default function Hero() {
   const ref = useRef(null);
@@ -80,18 +82,26 @@ export default function Hero() {
 
           <div className="mt-8 flex flex-wrap gap-3">
             <GlitchButton href="#prophecy">Enter The Matrix</GlitchButton>
-            <GlitchButton href="#goat" variant="ghost">
+            <GlitchButton
+              href={LINKS.buy}
+              variant="ghost"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Buy $TRIX
             </GlitchButton>
-            <GlitchButton href="#goat" variant="ghost">
+            <GlitchButton
+              href={LINKS.chart}
+              variant="ghost"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               View Chart
             </GlitchButton>
           </div>
 
-          <div className="mt-8 flex items-center gap-4 text-[10px] text-trix-200/50">
-            <span className="label-hud">$TRIX</span>
-            <span className="h-px w-10 bg-trix-400/30" />
-            <span className="label-hud cursor">CA: COMING_SOON</span>
+          <div className="mt-8">
+            <ContractAddress />
           </div>
         </motion.div>
 
