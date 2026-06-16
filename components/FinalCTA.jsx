@@ -45,7 +45,7 @@ export default function FinalCTA() {
             href="#goat"
             className="px-10 py-5 text-sm shadow-glow-lg"
           >
-            Enter $TRIX
+            Enter $ANSEM TRIX
           </GlitchButton>
         </div>
 

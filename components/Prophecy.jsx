@@ -67,7 +67,7 @@ export default function Prophecy() {
 
           {/* watermark */}
           <span className="pointer-events-none absolute -right-4 bottom-2 select-none font-display text-7xl font-black text-trix-400/5 sm:text-9xl">
-            $TRIX
+            $ANSEM TRIX
           </span>
         </motion.div>
 

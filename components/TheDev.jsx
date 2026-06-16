@@ -44,7 +44,7 @@ export default function TheDev() {
               {/* terminal-style code art (no photo for the dev) */}
               <div className="absolute inset-0 flex flex-col justify-center gap-1.5 p-5 font-mono text-[10px] leading-relaxed text-trix-200/70">
                 <span className="text-trix-glow">$ deploy --chain solana</span>
-                <span>{"> mint($TRIX)"}</span>
+                <span>{"> mint($ANSEM TRIX)"}</span>
                 <span>{"> liquidity.lock()"}</span>
                 <span>{"> renounce()"}</span>
                 <span className="text-trix-glow">{"> simulation.push()"}</span>

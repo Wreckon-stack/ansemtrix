@@ -1,8 +1,8 @@
-# ANSEMTRIX // $TRIX
+# ANSEMTRIX // $ANSEM TRIX
 
 **THE COMEBACK BROKE THE SIMULATION.**
 
-A cinematic, blue-Matrix memecoin command center for ANSEMTRIX ($TRIX) on Solana.
+A cinematic, blue-Matrix memecoin command center for ANSEMTRIX ($ANSEM TRIX) on Solana.
 Built with Next.js (App Router), Tailwind CSS, and Framer Motion.
 
 ## ⚡ Quick start

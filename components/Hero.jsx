@@ -81,7 +81,7 @@ export default function Hero() {
           <div className="mt-8 flex flex-wrap gap-3">
             <GlitchButton href="#prophecy">Enter The Matrix</GlitchButton>
             <GlitchButton href="#goat" variant="ghost">
-              Buy $TRIX
+              Buy $ANSEM TRIX
             </GlitchButton>
             <GlitchButton href="#goat" variant="ghost">
               View Chart
@@ -89,7 +89,7 @@ export default function Hero() {
           </div>
 
           <div className="mt-8 flex items-center gap-4 text-[10px] text-trix-200/50">
-            <span className="label-hud">$TRIX</span>
+            <span className="label-hud">$ANSEM TRIX</span>
             <span className="h-px w-10 bg-trix-400/30" />
             <span className="label-hud cursor">SOLANA // SIMULATION</span>
           </div>

@@ -52,7 +52,7 @@ export default function Nav() {
           href="#goat"
           className="glitch-hover border border-trix-300/60 bg-trix-500/20 px-4 py-2 text-[10px] font-bold uppercase tracking-[0.2em] text-trix-50 shadow-glow-sm transition-all hover:bg-trix-400/30"
         >
-          Buy $TRIX
+          Buy $ANSEM TRIX
         </a>
       </nav>
     </header>

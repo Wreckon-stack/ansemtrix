@@ -11,7 +11,7 @@ const LINES = [
   "liquidity anomaly detected...",
   "blue matrix protocol activated...",
   "timeline status: unstable",
-  "loading $TRIX...",
+  "loading $ANSEM TRIX...",
   "simulation breach successful",
 ];
 

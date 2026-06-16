@@ -6,7 +6,7 @@ export default function Footer() {
           <span className="font-display text-lg font-black tracking-widest text-trix-50 neon-text">
             ANSEMTRIX
           </span>
-          <span className="label-hud text-[10px] text-trix-300/60">$TRIX</span>
+          <span className="label-hud text-[10px] text-trix-300/60">$ANSEM TRIX</span>
         </div>
 
         <p className="max-w-2xl text-[11px] leading-relaxed text-trix-200/50">

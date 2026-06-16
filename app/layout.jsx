@@ -15,12 +15,12 @@ const display = Orbitron({
 });
 
 export const metadata = {
-  title: "ANSEMTRIX // $TRIX — The Comeback Broke The Simulation",
+  title: "ANSEMTRIX // $ANSEM TRIX — The Comeback Broke The Simulation",
   description:
-    "ANSEMTRIX ($TRIX) — He came back. The trenches reloaded. The simulation turned blue. The memecoin matrix rebooted.",
+    "ANSEMTRIX ($ANSEM TRIX) — He came back. The trenches reloaded. The simulation turned blue. The memecoin matrix rebooted.",
   metadataBase: new URL("https://ansemtrix.example"),
   openGraph: {
-    title: "ANSEMTRIX // $TRIX",
+    title: "ANSEMTRIX // $ANSEM TRIX",
     description: "THE COMEBACK BROKE THE SIMULATION.",
     images: ["/hero.png"],
   },
